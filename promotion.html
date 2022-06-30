@@ -22,7 +22,23 @@
         img {
             border: 0;
         }
-        
+        @media screen and (max-width: 599.98px) {
+            img.three-col-img-last {
+                width: 180px!important;
+                max-width: 180px!important;
+            }
+            .three-columns .padding {
+                padding-right: 0!important;
+                padding-left: 0!important;
+                padding-bottom: 20px!important;
+            }
+            @media screen and (max-width: 399.98px) { 
+                img.three-col-img {
+                    width: 260px!important;
+                    max-width: 260px!important;
+            }
+            }
+        }
     </style>
 
     <!--[if (gte mso 9)|(IE)]>
@@ -89,7 +105,7 @@
                     <table role="presentation" style="border-spacing:0;max-width: 600px;" width="100%">
                         <tr>
                             <td>
-                                <img src="https://res.cloudinary.com/dmsqthdn3/image/upload/v1656532293/Email%20Template/email-rectangle_wiwzpo.png" style="max-width: 600px;width: 100%;" width="600" alt="Placeholder">
+                                <img src="https://res.cloudinary.com/dmsqthdn3/image/upload/v1656532293/Email%20Template/email-rectangle_wiwzpo.png" style="max-width: 600px;width: 100%;" width="600" alt="Placeholder" border="0">
                             </td>
                         </tr>
                     </table>
@@ -112,7 +128,7 @@
                                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-spacing: 0;">
                                     <tr>
                                         <td style="border-radius: 100px;padding: 0;" bgcolor="#EE4036">
-                                            <a href="https://example.com" style="font-size: 16px;line-height:21px;text-decoration: none;color: #ffffff;background-color: #EE4036;padding: 15px 100px;border: 1px solid #EE4036;border-radius: 100px;display: inline-block;">LEARN MORE</a>
+                                            <a href="https://example.com" style="font-size: 16px;text-decoration: none;color: #ffffff;background-color: #EE4036;padding: 15px 80px;border: 1px solid #EE4036;border-radius: 100px;display: inline-block;">LEARN MORE</a>
                                         </td>
                                     </tr>
                                 </table>
@@ -154,9 +170,16 @@
                     <table role="presentation" style="border-spacing: 0;" width="100%">
                         <tr>
                             <td class="three-columns" style="padding:0;font-size:0;text-align: center;">
+
+                                <!--[if (gte mso 9)|(IE)]>
+                                <table width="100%" style="border-spacing:0;" role="presentation">
+                                <tr>
+                                <td width="170" valign="top" style="padding: 0;">
+                                <![endif]-->
+
                                 <table class="column" style="border-spacing: 0;width:100%;max-width:170px;display:inline-block;vertical-align:top;" role="presentation">
                                     <tr>
-                                        <td style="padding: 0 20px">
+                                        <td class="padding" style="padding: 0 20px">
                                             <table class="content" style="border-spacing: 0;" role="presentation">
                                                 <tr>
                                                     <td>
@@ -168,13 +191,18 @@
                                     </tr>
 
                                 </table>
+
+                                <!--[if (gte mso 9)|(IE)]>
+                                </td><td width="170" valign="top" style="padding: 0;">
+                                <![endif]-->
+
                                 <table class="column" style="border-spacing: 0;width:100%;max-width:170px;display:inline-block;vertical-align:top;" role="presentation">
                                     <tr>
-                                        <td style="padding: 0 20px;">
+                                        <td class="padding" style="padding: 0 20px;">
                                             <table class="content" style="border-spacing: 0;" role="presentation">
                                                 <tr>
                                                     <td>
-                                                        <img  class="three-col-img" src="https://res.cloudinary.com/dmsqthdn3/image/upload/v1656532297/Email%20Template/email-square_qekztx.png" alt="Placeholder" style="max-width: 150px;" width="150">
+                                                        <img  class="three-col-img" src="https://res.cloudinary.com/dmsqthdn3/image/upload/v1656532297/Email%20Template/email-square_qekztx.png" alt="Placeholder" style="max-width: 150px;" width="150" border="0">
                                                     </td>
                                                 </tr>
                                             </table>
@@ -182,13 +210,18 @@
                                     </tr>
 
                                 </table>
+
+                                <!--[if (gte mso 9)|(IE)]>
+                                </td><td width="200" valign="top" style="padding: 0;">
+                                <![endif]-->
+
                                 <table class="column" style="border-spacing: 0;width:100%;max-width:200px;display:inline-block;vertical-align:top;" role="presentation">
                                     <tr>
-                                        <td style="padding: 0 20px;">
+                                        <td class="padding" style="padding: 0 20px;">
                                             <table class="content" style="border-spacing: 0;" role="presentation">
                                                 <tr>
                                                     <td>
-                                                        <img  class="three-col-img" src="https://res.cloudinary.com/dmsqthdn3/image/upload/v1656532297/Email%20Template/email-square_qekztx.png" alt="Placeholder" style="max-width: 150px;" width="150">
+                                                        <img  class="three-col-img three-col-img-last" src="https://res.cloudinary.com/dmsqthdn3/image/upload/v1656532297/Email%20Template/email-square_qekztx.png" alt="Placeholder" style="max-width: 150px;" width="150" border="0">
                                                     </td>
                                                 </tr>
                                             </table>
@@ -196,6 +229,11 @@
                                     </tr>
 
                                 </table>
+                                <!--[if (gte mso 9)|(IE)]>
+                                </td>
+                                </tr>
+                                </table>
+                                <![endif]-->
                             </td>
                         </tr>
 
@@ -204,13 +242,20 @@
             </tr>
             
             <tr>
-                <td style="padding: 0 0 42px 0">
+                <td style="padding: 30px 0 20px 0">
                     <table role="presentation" style="border-spacing: 0;" width="100%">
                         <tr>
                             <td class="three-columns" style="padding:0;font-size:0;text-align: center;">
+
+                                <!--[if (gte mso 9)|(IE)]>
+                                <table width="100%" style="border-spacing:0;" role="presentation">
+                                <tr>
+                                <td width="170" valign="top" style="padding: 0;">
+                                <![endif]-->
+
                                 <table class="column" style="border-spacing: 0;width:100%;max-width:170px;display:inline-block;vertical-align:top;" role="presentation">
                                     <tr>
-                                        <td style="padding: 0 20px">
+                                        <td class="padding" style="padding: 0 20px">
                                             <table class="content" style="border-spacing: 0;" role="presentation">
                                                 <tr>
                                                     <td>
@@ -222,13 +267,18 @@
                                     </tr>
 
                                 </table>
+
+                                <!--[if (gte mso 9)|(IE)]>
+                                </td><td width="170" valign="top" style="padding: 0;">
+                                <![endif]-->
+
                                 <table class="column" style="border-spacing: 0;width:100%;max-width:170px;display:inline-block;vertical-align:top;" role="presentation">
                                     <tr>
-                                        <td style="padding: 0 20px;">
+                                        <td class="padding" style="padding: 0 20px;">
                                             <table class="content" style="border-spacing: 0;" role="presentation">
                                                 <tr>
                                                     <td>
-                                                        <img  class="three-col-img" src="https://res.cloudinary.com/dmsqthdn3/image/upload/v1656532297/Email%20Template/email-square_qekztx.png" alt="Placeholder" style="max-width: 150px;" width="150">
+                                                        <img  class="three-col-img" src="https://res.cloudinary.com/dmsqthdn3/image/upload/v1656532297/Email%20Template/email-square_qekztx.png" alt="Placeholder" style="max-width: 150px;" width="150" border="0">
                                                     </td>
                                                 </tr>
                                             </table>
@@ -236,13 +286,18 @@
                                     </tr>
 
                                 </table>
+
+                                <!--[if (gte mso 9)|(IE)]>
+                                </td><td width="200" valign="top" style="padding: 0;">
+                                <![endif]-->
+
                                 <table class="column" style="border-spacing: 0;width:100%;max-width:200px;display:inline-block;vertical-align:top;" role="presentation">
                                     <tr>
-                                        <td style="padding: 0 20px;">
+                                        <td class="padding" style="padding: 0 20px;">
                                             <table class="content" style="border-spacing: 0;" role="presentation">
                                                 <tr>
                                                     <td>
-                                                        <img  class="three-col-img" src="https://res.cloudinary.com/dmsqthdn3/image/upload/v1656532297/Email%20Template/email-square_qekztx.png" alt="Placeholder" style="max-width: 150px;" width="150">
+                                                        <img  class="three-col-img three-col-img-last" src="https://res.cloudinary.com/dmsqthdn3/image/upload/v1656532297/Email%20Template/email-square_qekztx.png" alt="Placeholder" style="max-width: 150px;" width="150" border="0">
                                                     </td>
                                                 </tr>
                                             </table>
@@ -250,6 +305,11 @@
                                     </tr>
 
                                 </table>
+                                <!--[if (gte mso 9)|(IE)]>
+                                </td>
+                                </tr>
+                                </table>
+                                <![endif]-->
                             </td>
                         </tr>
 
@@ -265,13 +325,13 @@
                         <tr>
                             <td style="padding: 24px 12px 24px 0 ;text-align: center;">
                                 <a href="">
-                                    <img src="https://i.ibb.co/MMzjYp3/white-facebook.png" alt="Facebook" width="32" target="_blank" border="0" title="Facebook">
+                                    <img src="https://i.ibb.co/MMzjYp3/white-facebook.png" alt="Facebook" width="32" target="_blank" border="0" title="Facebook" border="0">
                                 </a>
                                 <a href="">
-                                    <img src="https://i.ibb.co/X8hFFgv/white-instagram.png" alt="Instagram" width="32" target="_blank" border="0" title="Instagram">
+                                    <img src="https://i.ibb.co/X8hFFgv/white-instagram.png" alt="Instagram" width="32" target="_blank" border="0" title="Instagram" border="0">
                                 </a>
                                 <a href="">
-                                    <img src="https://i.ibb.co/NZjYj8j/white-twitter.png" alt="Twitter" width="32" target="_blank" border="0" title="Twitter">
+                                    <img src="https://i.ibb.co/NZjYj8j/white-twitter.png" alt="Twitter" width="32" target="_blank" border="0" title="Twitter" border="0">
                                 </a>
                             </td>
                         </tr>
